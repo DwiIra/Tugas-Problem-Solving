@@ -20,45 +20,45 @@ There are  n=5 elements, two positive, two negative and one zero. Their ratios a
     0.400000
     0.200000
 
-Function Description<br>
+<b>Function Description<b><br>
 Complete the plusMinus function in the editor below.<br>
 plusMinus has the following parameter(s):<br>
 int arr[n]: an array of integers<br>
 
-Print<br>
+<b>Print<b><br>
 Print the ratios of positive, negative and zero values in the array. <br>
 Each value should be printed on a separate line with 6 digits after the decimal. <br>
 The function should not return a value.<br>
 
-Input Format<br>
+<b>Input Format<b><br>
 The first line contains an integer, n, the size of the array.<br>
 The second line contains  space-separated integers that describe arr[n].<br>
 
-Constraints
+<b>Constraints<b>
 
     0 < n <= 100
     -100 <= arr[i] <= 100
 
-Output Format<br>
+<b>Output Format<b><br>
 Print the following 3 lines, each to 6 decimals:<br>
 1. proportion of positive values<br>
 2. proportion of negative values<br>
 3. proportion of zeros<br>
 
-Sample Input
+<b>Sample Input<b>
 
     STDIN           Function
     -----           --------
     6               arr[] size n = 6
     -4 3 -9 0 4 1   arr = [-4, 3, -9, 0, 4, 1]
 
-Sample Output
+<b>Sample Output<b>
 
     0.500000
     0.333333
     0.166667
 
-Explanation<br>
+<b>Explanation<b><br>
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.<br>
 The proportions of occurrence are positive: 3/6 = 0.500000, negative: 2/6 = 0.33333 and zeros: 1/6 = 0.166667.
 

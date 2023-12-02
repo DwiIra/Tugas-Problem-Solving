@@ -71,15 +71,15 @@ Print the following 3 lines, each to 6 decimals:<br>
 **Explanation**<br>
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.<br>
 The proportions of occurrence are :<br>
-Positive: 
+**Positive:**
 
     3/6 = 0.500000
 
-Negative: 
+**Negative:**
 
     2/6 = 0.33333 
 
-Zeros: 
+**Zeros:**
 
     1/6 = 0.166667.
 
@@ -172,41 +172,37 @@ if __name__ == '__main__':
     plusMinus(arr)
 ```
 
-<br>
-
-**Input (stdin)** <br>
+# Input (stdin)
 input yang akan di tes dalam web ini ada 2 yaitu:<br>
-Pertama
+**Pertama**
 
     6
     -4 3 -9 0 4 1
 
-Ke-dua
+**Ke-dua**
 
     8
     1 2 3 -1 -2 -3 0 0
 
-<br>
-
-**Output (stdout)** <br>
+# Output (stdout)
 output yang diinginkan pada setiap input seperti berikut:<br>
-Pertama
+**Pertama**
 
     0.500000
     0.333333
 
-Output
+**Output**
 
     0.500000
     0.333333
     0.166667
 
-Ke-dua
+**Ke-dua**
 
     0.375000
     0.375000
 
-Output
+**Output**
 
     0.375000
     0.375000

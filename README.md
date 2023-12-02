@@ -40,7 +40,7 @@ The second line contains  space-separated integers that describe arr[n].<br>
     -100 <= arr[i] <= 100
 
 **Output Format**<br>
-Print the following 3 lines, each to 6 decimals:<br>
+Print the following 3 lines, each to 6 decimals:
 1. proportion of positive values<br>
 2. proportion of negative values<br>
 3. proportion of zeros<br>

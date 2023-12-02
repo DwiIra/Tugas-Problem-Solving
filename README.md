@@ -17,13 +17,13 @@ Note: This challenge introduces precision problems. The test cases are scaled to
     arr = [1, 1, 0, -1, -1]
 
 There are  n=5 elements, two positive, two negative and one zero. <br>
-Their ratios are ,
+**Their ratios are ,**
 
     2/5 = 0.400000
     2/5 = 0.400000
     1/5 = 0.200000
 
-Results are printed as:
+**Results are printed as:**
 
     0.400000
     0.400000

@@ -3,6 +3,8 @@ Dosen Pengampuh : Anggay Luri Pramana,M.Kom
 
 # Problem Solving
 Problem-solving menggunakan metode numerik melibatkan penggunaan teknik-teknik matematika dan komputasi untuk mendapatkan solusi numerik dari suatu masalah.<br>
+Metode numerik pada dasarnya lebih sering digunakan untuk menyelesaikan permasalahan matematika yang melibatkan solusi numerik dari persamaan atau sistem persamaan matematis. <br>
+Dalam kasus ini, yaitu problem-solving "plus minus", yang sebenarnya melibatkan perhitungan rasio dari sejumlah elemen dalam sebuah array, metode numerik mungkin terlalu canggung atau terlalu berlebihan.<br>
 Contoh metode numerik melibatkan solusi persamaan differensial, pencarian akar persamaan nonlinear, atau interpolasi data. <br>
 Berbagai metode seperti Metode Euler, Metode Newton-Raphson, atau Metode Runge-Kutta sering digunakan tergantung pada sifat masalah yang dihadapi.<br>
 
@@ -39,8 +41,8 @@ The second line contains  space-separated integers that describe arr[n].<br>
     0 < n <= 100
     -100 <= arr[i] <= 100
 
-**Output Format**
-Print the following 3 lines, each to 6 decimals:
+**Output Format**<br>
+Print the following 3 lines, each to 6 decimals:<br>
 1. proportion of positive values<br>
 2. proportion of negative values<br>
 3. proportion of zeros<br>
@@ -62,4 +64,127 @@ Print the following 3 lines, each to 6 decimals:
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.<br>
 The proportions of occurrence are positive: 3/6 = 0.500000, negative: 2/6 = 0.33333 and zeros: 1/6 = 0.166667.
 
-# 
+# Bahasa Python 3
+Disini saya menggunakan bahasa Python 3 untuk mengenyelesaikan masalah tersebut.<br>
+Berikut adalah masalah kodingan yang diberikan:
+```python 
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'plusMinus' function below.
+#
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+def plusMinus(arr):
+    # Write your code here
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    plusMinus(arr)
+```
+
+# ANSWER & EXPLANATION
+Seperti yang sudah saya jelaskan diatas bahwa saya menggunakan bahasa Python 3 untuk mengerjakan tugas berikut dan juga import yang saya gunakan dari pilihan diatas adalah import random. <br>
+Berikut adalah jawaban kodingan saya:
+```python 
+def plusMinus(arr):
+    positive_count = sum(1 for num in arr if num > 0)
+    negative_count = sum(1 for num in arr if num < 0)
+    zero_count = sum(1 for num in arr if num == 0)
+    
+    n = len(arr)
+    
+    positive_proportion = positive_count / n
+    negative_proportion = negative_count / n
+    zero_proportion = zero_count / n
+    
+    print("{:.6f}".format(positive_proportion))
+    print("{:.6f}".format(negative_proportion))
+    print("{:.6f}".format(zero_proportion))
+```
+Kode ini menghitung jumlah elemen positif, negatif, dan nol dalam array dan kemudian menghitung proporsinya, mencetak setiap proporsi dengan 6 tempat desimal.<br>
+
+Sekarang kita coba untuk gabungkan maka akan menjadi seperti ini
+```python 
+#!/bin/python3
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'plusMinus' function below.
+#
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+def plusMinus(arr):
+    # Write your code here
+    positive_count = sum(1 for num in arr if num > 0)
+    negative_count = sum(1 for num in arr if num < 0)
+    zero_count = sum(1 for num in arr if num == 0)
+    
+    n = len(arr)
+    
+    positive_proportion = positive_count / n
+    negative_proportion = negative_count / n
+    zero_proportion = zero_count / n
+    
+    print("{:.6f}".format(positive_proportion))
+    print("{:.6f}".format(negative_proportion))
+    print("{:.6f}".format(zero_proportion))
+    
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+    
+    plusMinus(arr)
+```
+
+**Input (stdin)**
+input yang akan di tes dalam web ini ada 2 yaitu:
+1. yang pertama
+
+6
+-4 3 -9 0 4 1
+
+2. yang kedua
+
+8
+1 2 3 -1 -2 -3 0 0
+
+**Output (stdout)**
+output yang diinginkan pada setiap input seperti berikut:
+1. yang pertama
+
+0.500000
+0.333333
+
+Output yang muncul dari codingan saya adalah
+
+0.500000
+0.333333
+0.166667
+
+2. yang kedua
+
+0.375000
+0.375000
+
+Output yang muncul dari codingan saya adalah
+
+0.375000
+0.375000
+0.250000

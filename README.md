@@ -16,7 +16,8 @@ Note: This challenge introduces precision problems. The test cases are scaled to
 
     arr = [1, 1, 0, -1, -1]
 
-There are  n=5 elements, two positive, two negative and one zero. Their ratios are ,  2/5 = 0.400000, 2/5 = 0.400000  and 1/5 = 0.200000. Results are printed as:
+There are  n=5 elements, two positive, two negative and one zero. Their ratios are ,  2/5 = 0.400000, 2/5 = 0.400000  and 1/5 = 0.200000. <br>
+Results are printed as:
 
     0.400000
     0.400000
@@ -24,8 +25,9 @@ There are  n=5 elements, two positive, two negative and one zero. Their ratios a
 
 **Function Description**<br>
 Complete the plusMinus function in the editor below.<br>
-plusMinus has the following parameter(s):<br>
-int arr[n]: an array of integers<br>
+plusMinus has the following parameter(s):
+
+    int arr[n]: an array of integers
 
 **Print**<br>
 Print the ratios of positive, negative and zero values in the array. <br>
@@ -62,7 +64,18 @@ Print the following 3 lines, each to 6 decimals:<br>
 
 **Explanation**<br>
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.<br>
-The proportions of occurrence are positive: 3/6 = 0.500000, negative: 2/6 = 0.33333 and zeros: 1/6 = 0.166667.
+The proportions of occurrence are :
+Positive: 
+
+    3/6 = 0.500000
+
+Negative: 
+
+    2/6 = 0.33333 
+
+Zeros: 
+
+    1/6 = 0.166667.
 
 # Bahasa Python 3
 Disini saya menggunakan bahasa Python 3 untuk mengenyelesaikan masalah tersebut.<br>
@@ -155,35 +168,35 @@ if __name__ == '__main__':
 
 **Input (stdin)** <br>
 input yang akan di tes dalam web ini ada 2 yaitu:<br>
-yang pertama
+Pertama
 
     6
     -4 3 -9 0 4 1
 
-yang kedua
+Ke-dua
 
     8
     1 2 3 -1 -2 -3 0 0
 
 **Output (stdout)** <br>
 output yang diinginkan pada setiap input seperti berikut:<br>
-yang pertama
+Pertama
 
     0.500000
     0.333333
 
-Output yang muncul dari codingan saya adalah
+Output
 
     0.500000
     0.333333
     0.166667
 
-yang kedua
+Ke-dua
 
     0.375000
     0.375000
 
-Output yang muncul dari codingan saya adalah
+Output
 
     0.375000
     0.375000

@@ -173,6 +173,7 @@ if __name__ == '__main__':
 ```
 
 <br>
+
 **Input (stdin)** <br>
 input yang akan di tes dalam web ini ada 2 yaitu:<br>
 Pertama
@@ -186,6 +187,7 @@ Ke-dua
     1 2 3 -1 -2 -3 0 0
 
 <br>
+
 **Output (stdout)** <br>
 output yang diinginkan pada setiap input seperti berikut:<br>
 Pertama

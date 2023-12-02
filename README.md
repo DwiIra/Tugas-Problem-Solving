@@ -155,19 +155,19 @@ if __name__ == '__main__':
 
 **Input (stdin)** <br>
 input yang akan di tes dalam web ini ada 2 yaitu:<br>
-1. yang pertama
+yang pertama
 
     6
     -4 3 -9 0 4 1
 
-2. yang kedua
+yang kedua
 
     8
     1 2 3 -1 -2 -3 0 0
 
 **Output (stdout)** <br>
 output yang diinginkan pada setiap input seperti berikut:<br>
-1. yang pertama
+yang pertama
 
     0.500000
     0.333333
@@ -178,7 +178,7 @@ Output yang muncul dari codingan saya adalah
     0.333333
     0.166667
 
-2. yang kedua
+yang kedua
 
     0.375000
     0.375000

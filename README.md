@@ -64,7 +64,7 @@ Print the following 3 lines, each to 6 decimals:<br>
 
 **Explanation**<br>
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.<br>
-The proportions of occurrence are :
+The proportions of occurrence are :<br>
 Positive: 
 
     3/6 = 0.500000
